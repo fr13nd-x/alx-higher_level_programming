@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 def uppercase(str):
 	#65 - 90
 	for n in str:
