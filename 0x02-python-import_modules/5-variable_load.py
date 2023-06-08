@@ -2,4 +2,4 @@
 import variable_load_5 as f
 
 if __name__ == "__main__":
-	print("{}".format(f.a))
+    print("{}".format(f.a))
