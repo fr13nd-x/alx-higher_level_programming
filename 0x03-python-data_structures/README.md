@@ -26,3 +26,5 @@
 
 13-is_palindrome.c - a function in C that checks if a singly linked list is a palindrome.
 
+100-print_python_list_info.c -  C function that prints some basic info about Python lists.
+Prototype: void print_python_list_info(PyObject *p);
