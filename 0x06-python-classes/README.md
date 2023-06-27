@@ -1,24 +1,28 @@
-#0x06. Python - Classes and Objects
+# 0x06. Python - Classes and Objects
 
 
 0-square.py - an empty class Square that defines a square:
 
 1-square.py - a class Square that defines a square by: (based on 0-square.py)
+
 ``Private instance attribute: size``
 
 2-square.py -  a class Square that defines a square by: (based on 1-square.py)
+
 ``Private instance attribute: size
 Instantiation with optional size: def __init__(self, size=0):
 size must be an integer, otherwise raise a TypeError exception with the message size must be an integer
 if size is less than 0, raise a ValueError exception with the message size must be >= 0``
 
 3-square.py - a class Square that defines a square by: (based on 2-square.py)
+
 `` Private instance attribute: size
 Instantiation with optional size: def __init__(self, size=0):
 size must be an integer, otherwise raise a TypeError exception with the message size must be an integer
 if size is less than 0, raise a ValueError exception with the message size must be >= 0``
 
 4-square.py - a class Square that defines a square by: (based on 3-square.py)
+
 ``Private instance attribute: size:
 property def size(self): to retrieve it
 property setter def size(self, value): to set it:
@@ -26,6 +30,7 @@ size must be an integer, otherwise raise a TypeError exception with the message 
 if size is less than 0, raise a ValueError exception with the message size must be >= 0``
 
 5-square.py - a class Square that defines a square by: (based on 4-square.py)
+
 ``Private instance attribute: size:
 property def size(self): to retrieve it
 property setter def size(self, value): to set it:
@@ -33,6 +38,7 @@ size must be an integer, otherwise raise a TypeError exception with the message 
 if size is less than 0, raise a ValueError exception with the message size must be >= 0``
 
 6-square.py -  a class Square that defines a square by: (based on 5-square.py)
+
 ``Private instance attribute: size:
 property def size(self): to retrieve it
 property setter def size(self, value): to set it:
@@ -49,6 +55,7 @@ if size is equal to 0, print an empty line
 position should be use by using space - Don’t fill lines by spaces when position[1] > 0``
 
 100-singly_linked_list.py - a class Node that defines a node of a singly linked list by:
+
 ``Private instance attribute: data:
 property def data(self): to retrieve it
 property setter def data(self, value): to set it:
@@ -68,6 +75,7 @@ one node number by line
 Public instance method: def sorted_insert(self, value): that inserts a new Node into the correct sorted position in the list (increasing order)``
 
 101-square.py - a class Square that defines a square by: (based on 6-square.py)
+
 ``Private instance attribute: size:
 property def size(self): to retrieve it
 property setter def size(self, value): to set it:
@@ -85,6 +93,7 @@ position should be use by using space
 Printing a Square instance should have the same behavior as my_print()``
 
 102-square.py - a class Square that defines a square by: (based on 4-square.py)
+
 ``Private instance attribute: size:
 property def size(self): to retrieve it
 property setter def size(self, value): to set it:
@@ -95,7 +104,9 @@ Public instance method: def area(self): that returns the current square area
 Square instance can answer to comparators: ==, !=, >, >=, < and <= based on the square area``
 
 103-magic_class.py -  Python class MagicClass that does exactly the same as the following Python bytecode
-``Disassembly of __init__:
+
+```
+Disassembly of __init__:
  10           0 LOAD_CONST               1 (0)
               3 LOAD_FAST                0 (self)
               6 STORE_ATTR               0 (_MagicClass__radius)
@@ -143,6 +154,7 @@ Disassembly of circumference:
              10 LOAD_FAST                0 (self)
              13 LOAD_ATTR                2 (_MagicClass__radius)
              16 BINARY_MULTIPLY
-             17 RETURN_VALUE``
+             17 RETURN_VALUE
+    ```
 
-<a href="https://intranet.alxswe.com/rltoken/l0hEn4L06ZhFg5HzGPbEhQ">Python Bytecode tip</a>
+[https://intranet.alxswe.com/rltoken/l0hEn4L06ZhFg5HzGPbEhQ] -> Python Bytecode tip
